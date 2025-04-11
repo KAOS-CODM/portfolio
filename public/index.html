@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Isaiah's Portfolio | ICEWEBDEV</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="ISAIAHWEBDEV  Logo/logo.png">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header>
+        <div class="container header-flex">
+            <img src="ISAIAHWEBDEV  Logo/logo.png" alt="Isaiah Logo" class="logo">
+            <div class="header-text">
+                <h1>Hi, I'm Isaiah</h1>
+                <p>Frontend Developer | Clean Code, Creative Design</p>
+            </div>
+        </div>
+    </header>
+
+    <section id="slideshow">
+        <div class="slideshow-container" id="slideshow-track" class="lightbox-link"></div>
+    </section>
+
+
+    <!-- Main Content Section (Vertical Scroll) -->
+    <div class="main-content">
+        <!-- About Me Section -->
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I'm a passionate frontend developer skilled in HTML, CSS, JavaScript, and modern web design techniques...</p>
+            </div>
+        </section>
+
+        
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="container">
+                <h2>My Skills</h2>
+                <p>Includes but not limited to:</p>
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>JavaScript</li>
+                    <li>UI/UX Design</li>
+                    <li>API Integration</li>
+                    <li>Firebase & Cloudinary</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="project">
+                    <h3>Recipe Submission Website</h3>
+                    <div class="project-images">
+                        <img src="images/recipe-submission1.PNG" alt="Recipe Screenshot 1" class="lightbox-link">
+                        <img src="images/recipe-submission2.PNG" alt="Recipe Screenshot 2" class="lightbox-link">
+                        <img src="images/recipe-submission3.PNG" alt="Recipe Screenshot 3" class="lightbox-link">
+                    </div>
+                    <p>A recipe submission platform with custom features like comment sections, admin dashboards, and search functionality.</p>
+                    <a href="https://praroz-50094.web.app" target="_blank">View Project Site</a>
+                    <p>View my work on <a href="https://github.com/KAOS-CODM/PRAROZ.git" target="_blank">GitHub</a></p>
+                </div>                
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>Email: <a href="mailto:yemzykul@gmail.com" class="contact-links">yemzykul@gmail.com</a></p>
+                <p>GitHub: <a href="https://github.com/KAOS-CODM" target="_blank" class="contact-links">github.com/kaos-codm</a></p>
+            </div>
+        </section>
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-img" id="lightbox-img" src="" alt="Expanded Project Image">
+        <div class="nav-btns">
+            <span id="prev-btn">&#10094;</span>
+            <span id="next-btn">&#10095;</span>
+        </div>
+    </div>
+    
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Isaiahwebdev | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

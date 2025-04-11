@@ -1,0 +1,282 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #cea7a7, #ffc9c9); /* Milkish gradient background */
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Container for content */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    background: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.logo {
+    width: 60px; /* adjust as needed */
+    height: auto;
+    border-radius: 8px; /* optional */
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Section Styling */
+section {
+    width: 80%; /* Limit the section width to 80% of the page */
+    max-width: 1200px; /* Prevent the section from becoming too wide */
+    margin: 40px auto; /* Center the section and add some vertical spacing between sections */
+    padding: 20px; /* Add padding inside each section */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a slightly transparent background color for sections */
+    border-radius: 10px; /* Optional: Rounded corners for each section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add subtle shadow for depth */
+}
+
+
+/* About Section */
+#about {
+    background: #fafafa;
+}
+
+/* Projects Section */
+#projects .project {
+    margin: 20px auto; /* Add some space between the cards */
+    padding: 20px; /* Add padding inside the project card */
+    width: 80%; /* Limit the width of the project card */
+    max-width: 500px; /* Ensure the card doesn't get too wide */
+    text-align: center;
+    border: 1px solid #ddd; /* Optional: Add a border for better separation */
+    border-radius: 10px; /* Optional: Add rounded corners for a softer look */
+    background-color: #fff; /* Background color for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
+}
+
+#projects .project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#projects .project a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    display: inline-block;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+#projects .project a:hover {
+    color: #0056b3;
+    transform: translateY(-3px);
+}
+
+/* Skills Section */
+#skills ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+}
+
+#skills ul li {
+    font-size: 1.2em;
+    margin: 15px 0;
+    font-weight: bold;
+    color: #555;
+}
+
+#skills ul li:hover {
+    color: #007bff;
+    cursor: pointer;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.contact-links {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.contact-links:hover {
+    color: #0056b3;
+    transform: translateY(-3px);
+}
+
+/* Footer Styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Lightbox styling */
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.85);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lightbox-img {
+    max-width: 90%;
+    max-height: 80vh;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+}
+
+.lightbox .close {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.nav-btns {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    transform: translateY(-50%);
+}
+
+.nav-btns span {
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    user-select: none;
+}
+
+#slideshow {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background: #f0f0f0;
+    padding: 10px 0;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+}
+
+.slideshow-container {
+    display: flex;
+    animation: scrollSlide 20s linear infinite;
+}
+
+.slideshow-container img {
+    height: 150px;
+    margin: 0 10px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.slideshow-container img:hover {
+    transform: scale(1.05);
+}
+
+.slideshow-track {
+    display: flex;
+    width: max-content;
+    animation: scroll 30s linear infinite;
+    gap: 20px;
+}
+
+#slideshow:hover .slideshow-container {
+    animation-play-state: paused;
+}
+
+@keyframes scrollSlide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    header p {
+        font-size: 1.1em;
+    }
+
+    #projects .project {
+        margin: 15px 0;
+    }
+
+    #skills ul li {
+        font-size: 1.1em;
+    }
+
+    .slideshow img {
+        height: 70px;
+    }
+}
