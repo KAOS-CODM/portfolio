@@ -42,9 +42,11 @@ portfolio/              # Root folder ├── README.md           # Documentat
 ```bash
 git clone https://github.com/KAOS-CODM/portfolio.git
 cd portfolio/public
+
+
 open index.html or simply double-click index.html in your file explorer.
 
-### Deploy
+## Deploy
 
 Deployment is handled automatically with GitHub Pages.
 
