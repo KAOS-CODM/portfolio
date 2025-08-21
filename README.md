@@ -1,104 +1,79 @@
-🌐 Isaiah Adelowo — Portfolio Website
+# 🌐 Isaiah Adelowo — Portfolio Website
 
-Welcome to my personal portfolio! 🚀
+Welcome to my personal portfolio! 🚀  
 This site represents my journey as a web developer, showcasing my skills, creativity, and growth in building clean, functional, and user-friendly web interfaces.
 
-🔗 Live Demo: Visit Portfolio
-
+🔗 **Live Demo:** [Visit Portfolio](https://kaos-codm.github.io/portfolio/)
 
 ---
 
-📌 About This Project
+## 📌 About This Project
 
-This portfolio is designed as a one-page showcase of who I am and what I do.
+This portfolio is designed as a **one-page showcase** of who I am and what I do.
 
 It includes:
+- A professional introduction  
+- Skills overview  
+- Dynamic project showcase (auto-updated from JSON)  
+- Contact information  
 
-A professional introduction
-
-Skills overview
-
-Dynamic project showcase (automatically updated)
-
-Contact information
-
-
-The portfolio is built to be easily expandable, so new works can be added seamlessly without modifying the structure.
-
+The portfolio is built to be **easily expandable**, so new works can be added seamlessly without modifying the structure.
 
 ---
 
-🛠️ Built With
-
-HTML5 – Semantic structure
-
-CSS3 – Responsive design & animations
-
-JavaScript (Vanilla) – Interactivity & dynamic rendering
-
-JSON – Data-driven content
-
-GitHub Pages – Hosting & deployment
-
-
+## 🛠️ Built With
+- **HTML5** – Semantic structure  
+- **CSS3** – Responsive design & animations  
+- **JavaScript (Vanilla)** – Interactivity & dynamic rendering  
+- **JSON** – Data-driven content  
+- **GitHub Pages** – Hosting & deployment  
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 
-Public/    
-├── css/             # Stylesheets    
-├── js/              # JavaScript files    
-├── images/          # Images & assets    
-├── projects.json    # Dynamic projects data  
-├── index.html       # Main portfolio page    
-└── README.md        # Documentation (this file)
-
+portfolio/              # Root folder ├── README.md           # Documentation (this file) └── public/             # Main portfolio files ├── css/            # Stylesheets ├── js/             # JavaScript files ├── images/         # Images & assets ├── projects.json   # Dynamic projects data └── index.html      # Main portfolio page
 
 ---
 
-🚀 Getting Started
+## 🚀 Getting Started
 
-1️⃣ Clone the Repository
+### Clone the Repository
+```bash
+git clone https://github.com/KAOS-CODM/portfolio.git
+cd portfolio/public
+open index.html or simply double-click index.html in your file explorer.
 
-git clone https://github.com/KAOS-CODM/portfolio.git  
-cd Public
+### Deploy
 
-2️⃣ Open Locally
-
-open index.html
-
-Or simply double-click index.html in your file explorer.
-
-3️⃣ Deploy
 Deployment is handled automatically with GitHub Pages.
 
 
 ---
 
-👨‍💻 About Me
+##👨‍💻 About Me
 
-I’m Isaiah Adelowo, a Computer Science student passionate about web programming.
+- I’m Isaiah Adelowo, a Computer Science student passionate about web programming.
 
-I focus on:
+### I focus on:
 
-Developing responsive websites
+- Developing responsive websites
 
-Creating dynamic frontends using HTML, CSS, and JavaScript
+- Creating dynamic frontends using HTML, CSS, and JavaScript
 
-Exploring backend integration with Node.js
+- Exploring backend integration with Node.js
 
 
 
 ---
 
-📬 Contact Me
+## 📬 Contact Me
 
-📧 Email: kaoskonseptech@gmail.com
+### 📧 Email: kaoskonseptech@gmail.com
 
-💼 Fiverr: Isaiahwebdev
+### 💼 Fiverr: Isaiahwebdev
 
-🌍 Portfolio: github.com/KAOS-CODM/possible.git
+### 🌍 Portfolio: 
 
 
 
@@ -108,5 +83,5 @@ Exploring backend integration with Node.js
 
 
 ---
-© 2025 Isaiah Adelowo — All Rights Reserved
 
+© 2025 Isaiah Adelowo — All Rights Reserved
