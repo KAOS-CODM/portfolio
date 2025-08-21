@@ -36,21 +36,6 @@ portfolio/              # Root folder ├── README.md           # Documentat
 
 ---
 
-## 🚀 Getting Started
-
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/KAOS-CODM/portfolio.git
-cd portfolio/public
-open index.html```
-
-## Deploy
-
-Deployment is handled automatically with GitHub Pages.
-
-
----
-
 ##👨‍💻 About Me
 
 - I’m Isaiah Adelowo, a Computer Science student passionate about web programming.
@@ -76,8 +61,21 @@ Deployment is handled automatically with GitHub Pages.
 ### 🌍 Portfolio: 
 
 
-
 ---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/KAOS-CODM/portfolio.git
+cd portfolio/public
+open index.html```
+
+### Deploy
+
+Deployment is handled automatically with GitHub Pages.
+
+
 
 ⭐ If you like this project, please give it a star on GitHub!
 
