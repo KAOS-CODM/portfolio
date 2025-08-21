@@ -38,13 +38,11 @@ portfolio/              # Root folder ├── README.md           # Documentat
 
 ## 🚀 Getting Started
 
-### Clone the Repository
+### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/KAOS-CODM/portfolio.git
 cd portfolio/public
-
-
-open index.html or simply double-click index.html in your file explorer.
+open index.html```
 
 ## Deploy
 
