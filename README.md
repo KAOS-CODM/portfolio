@@ -32,7 +32,13 @@ The portfolio is built to be **easily expandable**, so new works can be added se
 
 ## 📂 Project Structure
 
-portfolio/              # Root folder ├── README.md           # Documentation (this file) └── public/             # Main portfolio files ├── css/            # Stylesheets ├── js/             # JavaScript files ├── images/         # Images & assets ├── projects.json   # Dynamic projects data └── index.html      # Main portfolio page
+portfolio/# Root folder 
+        ├── README.md       # Documentation (this file) 
+        ├── css/            # Stylesheets
+        ├── js/             # JavaScript files
+        ├── images/         # Images & assets
+        ├── projects.json   # Dynamic projects data 
+        └── index.html      # Main portfolio page
 
 ---
 
@@ -65,14 +71,20 @@ portfolio/              # Root folder ├── README.md           # Documentat
 
 ## 🚀 Getting Started
 
-### 1️⃣ Clone the Repository
+### Clone the Repository
 ```bash
 git clone https://github.com/KAOS-CODM/portfolio.git
+```
+### Go to project folder
+```bash
 cd portfolio/public
-open index.html...
+```
+### Open index files
+```bash
+open index.html
+```
 
 ### Deploy
-
 Deployment is handled automatically with GitHub Pages.
 
 
