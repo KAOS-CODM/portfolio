@@ -69,7 +69,7 @@ portfolio/              # Root folder ├── README.md           # Documentat
 ```bash
 git clone https://github.com/KAOS-CODM/portfolio.git
 cd portfolio/public
-open index.html```
+open index.html...
 
 ### Deploy
 
