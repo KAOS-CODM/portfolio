@@ -2,23 +2,17 @@
   {
     "title": "Recipe Submission Website",
     "description": "A recipe submission platform with comment sections, admin dashboards, and search functionality.",
-    "site": "https://praroz-50094.web.app",
+    "site": "https://praroz.onrender.com",
     "github": "https://github.com/KAOS-CODM/PRAROZ.git",
     "images": [
-      "images/recipe-submission1.PNG",
-      "images/recipe-submission2.PNG",
-      "images/recipe-submission3.PNG"
-    ]
-  },
-  {
-    "title": "Comic Reader",
-    "description": "A dynamic comic reader with JSON-based chapters and image navigation.",
-    "site": "https://example.com",
-    "github": "https://github.com/example/comicreader",
-    "images": [
-      "images/comic1.png",
-      "images/comic2.png",
-      "images/comic3.png"
+        "images/recipe-submission1.PNG",
+        "images/recipe-submission2.PNG",
+        "images/recipe-submission3.PNG",
+        "images/submission.jpg",
+        "images/Admin.jpg",
+        "images/recipe.jpg",
+        "images/page.jpg",
+        "images/homepage.jpg"
     ]
   }
 ]
