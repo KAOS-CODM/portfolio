@@ -62,9 +62,9 @@ portfolio/# Root folder
 
 ### 📧 Email: kaoskonseptech@gmail.com
 
-### 💼 Fiverr: Isaiahwebdev
+### 💼 Fiverr: https://www.fiverr.com/Isaiahwebdev
 
-### 🌍 Portfolio: 
+### 🌍 Portfolio: https://kaos-codm.github.io/portfolio/
 
 
 ---
