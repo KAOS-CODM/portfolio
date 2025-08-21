@@ -33,12 +33,12 @@ The portfolio is built to be **easily expandable**, so new works can be added se
 ## 📂 Project Structure
 
 portfolio/# Root folder 
-        ├── README.md       # Documentation (this file) 
-        ├── css/            # Stylesheets
-        ├── js/             # JavaScript files
-        ├── images/         # Images & assets
-        ├── projects.json   # Dynamic projects data 
-        └── index.html      # Main portfolio page
+├── README.md       # Documentation (this file) 
+├── css/            # Stylesheets
+├── js/             # JavaScript files
+├── images/         # Images & assets
+├── projects.json   # Dynamic projects data 
+└── index.html      # Main portfolio page
 
 ---
 
