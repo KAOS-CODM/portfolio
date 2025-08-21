@@ -42,7 +42,7 @@ portfolio/          # Root folder
 ```
 ---
 
-##👨‍💻 About Me
+## 👨‍💻 About Me
 
 - I’m Isaiah Adelowo, a Computer Science student passionate about web programming.
 
